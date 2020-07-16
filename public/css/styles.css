@@ -1,10 +1,12 @@
+
+
 body {
-    color: #333333;
+    color: #ffff;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    background: url('../homebg.png') no-repeat center center;
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -15,7 +17,7 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: #ffff;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -32,7 +34,7 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: #e1e1e1;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -44,12 +46,19 @@ header a {
 input{
     border: 1px solid #cccccc;
     padding: 8px;
+    border-radius: 10px;
+    color: #888888;
 }
 
 button{
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
+    border: 1px solid #4466c9;
+    background: #4466c9;
     color: #ffff;
     padding: 8px;
+    border-radius: 10px;
+}
+
+.para{
+    color: #ffff;
 }
