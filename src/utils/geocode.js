@@ -6,7 +6,7 @@ const geocode = (address,callback)=>{
       if(err){
         callback('Unable to connect to location services',undefined);
       }else if(!body.features.length || body.features.length === 0){
-        callback('Bhosadike Enter appropriate Location , Recheck location Entered',undefined);
+        callback('Please Enter appropriate Location , Recheck location Entered',undefined);
       }else{
         callback(undefined,{
           latitude: body.features[0].center[1],
